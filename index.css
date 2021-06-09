@@ -1,0 +1,101 @@
+body{
+  margin: 0px;
+  padding: 0px;
+  background-image: url("/abs-1850926_1920.jpg");
+  background-repeat: no-repeat;
+  color: wheat;
+  font-family: cursive; 
+}
+.left{
+display: inline-block;
+
+position: absolute;
+left: 5px;
+top: 7px;
+}
+.left img{
+  width: 140px;
+
+}
+.left div{
+  text-align: center;
+  color: white;
+  font-size: 23px;
+}
+.mid{
+
+display: block;
+width: 55%;
+margin: 7px auto;
+
+
+}
+.right{
+  position: absolute;
+  right: 5px;
+  top: 7px;
+  display: inline-block;
+  
+}
+.navbar{
+  display: inline-block;
+}
+.navbar li{
+  display: inline-block;
+ 
+
+}
+.navbar li a{
+ color: white;
+ text-decoration: none;
+ padding: 5px;
+ font-size: 25px;
+
+
+}
+.navbar li a:hover{
+text-decoration: underline;
+color: rgb(116, 113, 113);
+ }
+.btn{
+  margin: 0 6px;
+  background-color: black;
+  color: white;
+  padding: 3px 5px;
+  border: 2px solid gray;
+  border-radius: 10px;
+  font-size: 12px;
+  cursor: pointer;
+font-family: cursive;
+}
+.btn:hover{
+  background-color: rgb(126, 126, 126);
+}
+.con{
+border: 3px solid rgb(255, 255, 255);
+  margin:105px 128px;
+  padding:9px 33px;
+  width:35%;
+  border-radius: 19px;
+}
+h1{
+  display: block;
+  font-size: 25px;
+  color:white;
+  text-align: center;
+}
+input{
+  text-align: center;
+  display: block;
+  width: 140px;
+  padding: 15px;
+  margin: 8px auto;
+  border: 2px solid black;
+  border-radius: 20px;
+  background-color:black;
+  color: white;
+}
+#para{
+  text-align: center;
+  color: white;
+}
